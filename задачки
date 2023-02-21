@@ -1,0 +1,28 @@
+#1
+a, b = int(input()), int(input())
+
+if a>b:
+  c=a-b
+
+elif a<b:
+  c=b+a
+
+else:
+  c=a
+
+print(c) 
+
+#2
+a, b = int(input()), int(input())
+
+if a!=b:
+  print("негры")
+
+elif a=b:
+  print("капут")
+
+elif a>b:
+  print("автобус")
+
+else:
+  print("умнейшая")
